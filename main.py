@@ -4,7 +4,7 @@ from app.models import entity
 from app.configs.settings import engine
 from app.routers.router import api_router
 
-entity.Base.metadata.create_all(bind=engine)
+# entity.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
