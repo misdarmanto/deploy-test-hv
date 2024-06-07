@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "marrisa"
+version = "0.1.0"
+description = ""
+authors = ["optimus tim"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+annotated-types = "0.7.0"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+et-xmlfile = "1.1.0"
+firecrawl-py = "0.0.9"
+idna = "3.7"
+numpy = "1.26.4"
+openpyxl = "3.1.2"
+pandas = "2.2.2"
+pydantic = "2.7.1"
+pydantic-settings = "2.2.1"
+pydantic-core = "2.18.2"
+python-dateutil = "2.9.0.post0"
+python-dotenv = "1.0.1"
+pytz = "2024.1"
+requests = "2.32.1"
+six = "1.16.0"
+typing-extensions = "4.11.0"
+tzdata = "2024.1"
+urllib3 = "2.2.1"
+pypdf2 = "^3.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
