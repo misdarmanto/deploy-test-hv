@@ -25,4 +25,4 @@ langchain-community==0.2.4
 weaviate-client==3.26.2
 langchain==0.2.3
 openai==1.32.0
-
+uvicorn
